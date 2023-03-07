@@ -32,6 +32,7 @@ sudo cp CS-rdmfs/bin/start.sh /usr/local/sbin/rdmfs_mount.sh
 ```
 cd /var/www/ood/apps/sys
 git clone --depth 1 https://github.com/RCOSDP/CS-ood-rdmfs
+chmod 777 /var/www/ood/apps/sys/CS-ood-rdmfs /var/www/ood/apps/sys/CS-ood-rdmfs/tmp
 ```
 
 参考：[Publish App](https://osc.github.io/ood-documentation/latest/app-development/tutorials-passenger-apps/ps-to-quota.html#publish-app)
